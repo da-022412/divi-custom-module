@@ -13,9 +13,9 @@ class HelloWorld extends Component {
     const Content = this.props.content;
 
     return (
-      <h2>
+      <h1>
         <Content/>
-      </h2>
+      </h1>
     );
   }
 }
